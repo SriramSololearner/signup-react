@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background: #FF7978 0% 0% no-repeat padding-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (min-width:785px) {
+    #span{
+        display: block;
+    }
+    .section1 h1 {
+        top: 300px;
+        position: absolute;
+        left: 166px;
+        width: 436px;
+        height: 126px;
+        text-align: left;
+        font: normal normal bold 54px/60px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    
+    .section1 p {
+        position: absolute;
+        top: 452px;
+        left: 172px;
+        width: 434px;
+        height: 71px;
+        text-align: left;
+        font: normal normal 600 14px/26px Open Sans;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .try-it{
+        position: absolute;
+        top: 136px;
+        left: 756px;
+        width: 558px;
+        height: 57px;
+        background: #5D55A1 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        text-align: center;
+        color: white;
+        border-radius: 4px;
+        opacity: 1;
+    }
+    div p{
+        margin:20px 0px;
+    }
+
+    .form {
+        position: absolute;
+        top: 215px;
+        left: 756px;
+        width: 558px;
+        height: 487px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        opacity: 1;
+    }
+
+    input {
+        display: block;
+        margin: 30px 30px;
+        padding: 12px 120px;
+        font-size: 20px;
+    }
+
+    input:focus {
+        outline: 1px solid blue;
+        border-color: blue;
+    }
+
+    #btn {
+        padding: 0px 120px;
+        margin: 10px 80px;
+        font-size: 9px;
+        font: normal normal 600 15px/28px Open Sans;
+        color: #FFFFFF; 
+        background: #37CC89 0% 0% no-repeat padding-box;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    #btn:hover {
+        color: green;
+        background-color: whitesmoke
+    }
+
+    form p {
+        margin-left: 130px;
+        display: flex;
+        text-align: center;
+        font: normal normal normal 13px/24px Open Sans;
+        letter-spacing: 0px;
+        color: #A8A8A8;
+    }
+
+    a {
+        text-decoration: none;
+        color: #FF7978;
+        margin-left: 2px;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media (min-width:285px) and (max-width:784px) {
+    #p span{
+        display: block;
+    }
+    .section1 h1{
+        
+        position: absolute;
+        top: 68px;
+        left: 135px;
+        width: 200px;
+        height: 79px;
+        text-align: center;
+        /* font: normal normal bold 42px/40px Montserrat; */
+        font-family: Montserrat;
+        font-size: 30px;
+        letter-spacing: -2px;
+        color: #FFFFFF;
+        opacity:1;
+    }
 
-.App-link {
-  color: #61dafb;
-}
+    .section1 p{
+        position: absolute;
+        top: 174px;
+        left: 80px;
+        width: 315px;
+        height: 110px;
+        text-align: center;
+        font: normal normal 600 12px/20px Open Sans;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .try-it{
+        position:absolute;
+        top: 290px;
+        left: 91px;
+        width: 304px;
+        height: 78px;
+        background: #5D55A1 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 4px;
+        opacity: 1;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    div > p{
+        position: relative;
+        left:20px;
+        color:white;
+        margin: 20px 50px;
+    }
+
+    .form{
+        position:absolute;
+        top: 383px;
+        left: 89px;
+        width: 306px;
+        height:350px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        margin-bottom: 20px;
+    }
+
+    input{
+        display:block;
+        margin:20px;
+        padding:10px 50px;
+    }
+
+    #btn{
+        margin:5px 20px;
+        padding:5px 50px;
+        color:white;
+        background-color: #37CC89;
+        border:0;
+        border-radius: 5px;
+    }
+
+    #btn:hover{
+        color:green;
+        background-color:whitesmoke
+    }
+
+    form > p{
+        margin:10px 30px;
+        width: 224px;
+        height: 17px;
+        text-align: center;
+        font: normal normal normal 12px/18px Open Sans;
+        letter-spacing: 0px;
+        color: #A8A8A8;
+    
+    }
+
+    a{
+        color: #FF7978;
+        text-decoration: none;
+    }
+
+    input:focus {
+        outline: 1px solid blue;
+        border-color: blue;
+    }
 }
